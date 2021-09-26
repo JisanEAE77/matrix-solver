@@ -1,0 +1,25 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+#title {width: 100%; background-color: black; color: yellow; text-align: center; margin: 0;}
+body {background-color: white;}
+#display {color: red;}
+#input table {border-collapse: collapse; border: 1px solid black;}
+#output table {border-collapse: collapse; border: 1px solid black;}
+#output tr{border: 1px solid white;}
+#output td {height: 15px; width: 45px; border: 1px solid white; padding: 10px 25px; text-align: center;}
+
+input {height: 15px; width: 45px; padding: 5px 25px; text-align: center;}
+select {padding: 5px; background-color: brown; color: white; outline: none;}
+
+table {background-color: black; color: white; padding: 10px;}
+input {background-color: brown; color: white; outline: none;}
+
+#input h2 {color: darkblue;}
+#output h2 {color: green}
+button {background-color: black; color: yellow; outline: none; font-weight: bold; padding: 10px 25px; cursor: pointer;}
+#main {padding: 25px 10px;}
+#main, #output, #input {display: flex; flex-wrap: wrap; align-items: center; justify-content: center; flex-direction: column;}
+#main h2 {text-align: center;}
+span {font-weight: bold;}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Matrix Solver</title>
+</head>
+<body>
+        <h2 id="title">Matrix Solver</h2>
+        <div id="main">
+            
+            <h2>Operation:</h2>
+            <div>
+                <select name="operation" id="operation" onchange="run(1)">
+                    <option value="empty">--Select--</option>
+                    <option value="Addition">Addition</option>
+                    <option value="Subtraction">Subtraction</option>
+                    <option value="Multiplication">Multiplication</option>
+                </select><br>
+            </div>
+            
+            <h2>First Matrix Size:</h2>
+            <div>
+                <input id="size11"> <span>&times;</span> <input id="size12"><br>
+            </div>
+            
+            <h2>Second Matrix Size:</h2>
+            <div>
+                <input id="size21"> <span>&times;</span> <input id="size22"><br>
+            </div>
+            <br>
+            <div>
+                <button onclick="run(0)">Next</button><br>
+            </div>
+
+            <div id="display"></div><br>
+            <div id="input"></div><br>
+            <div id="output"></div><br>
+        </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
